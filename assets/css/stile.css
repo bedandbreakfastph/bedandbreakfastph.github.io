@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=PT+Mono&display=swap");
+body {
+  padding: 55px 26px;
+}
+
+@media (min-width: 0px) and (max-width: 1023px) {
+  body {
+    padding: 30px 13px;
+  }
+}
+
+h1 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  margin-top: 4px !important;
+  margin-bottom: 38px !important;
+  color: #222;
+}
+
+@media (min-width: 0px) and (max-width: 1023px) {
+  h1 {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 575px) {
+  h1 {
+    font-size: 32px;
+    margin-bottom: 24px !important;
+  }
+}
+
+p, a, .btn, .btn:active, .btn:hover, .btn:focus, ul {
+  color: #222;
+  background: transparent !important;
+  border: none;
+  font-family: 'PT Mono', monospace;
+  font-size: 10px;
+  padding: 6px 0;
+  margin: 0;
+  height: auto;
+  letter-spacing: 0.5px;
+}
+
+@media (min-width: 0px) and (max-width: 1023px) {
+  p, a, .btn, .btn:active, .btn:hover, .btn:focus, ul {
+    font-size: 10px;
+  }
+}
+
+a:hover, .btn:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  padding-top: 0 !important;
+  padding-bottom: 10px;
+}
+
+li {
+  margin: 6px 0px 0px 20px;
+}
+
+a:link, a:visited, a:active {
+  text-decoration: none;
+}
+
+a:hover {
+  transition: 0.4 s;
+  text-decoration: underline;
+}
+
+h1, p, a {
+  color: #222222;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  padding: 6px;
+}
+
+.height1, .height1 * {
+  height: 440px;
+}
+
+@media (min-width: 0px) and (max-width: 1023px) {
+  .height1, .height1 * {
+    height: auto;
+  }
+}
+
+.height2, .height2 * {
+  height: 400px;
+}
+
+@media (min-width: 0px) and (max-width: 1023px) {
+  .height2, .height2 * {
+    height: auto;
+  }
+}
+
+.height3, .height3 * {
+  height: 300px;
+}
+
+@media (min-width: 0px) and (max-width: 1023px) {
+  .height3, .height3 * {
+    height: auto;
+  }
+}
+
+.height4, .height4 * {
+  height: 220px;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .height4, .height4 * {
+    height: auto;
+  }
+}
+
+.padding {
+  padding: 0 !important;
+}
+
+.col-sm-3 {
+  width: 20% !important;
+}
+
+@media (min-width: 576px) and (max-width: 1023px) {
+  .col-sm-3 {
+    width: 22% !important;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 575px) {
+  .col-sm-3 {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 575px) {
+  .contatti {
+    margin-bottom: 24px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+  outline: transparent;
+  outline-offset: 0;
+  box-shadow: none;
+}
+
+.btn-primary:active:hover, .btn-primary.active:hover, .open > .dropdown-toggle.btn-primary:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open > .dropdown-toggle.btn-primary:focus, .btn-primary:active.focus, .btn-primary.active.focus, .open > .dropdown-toggle.btn-primary.focus {
+  color: #222;
+  background-color: transparent;
+  border-color: transparent;
+}
